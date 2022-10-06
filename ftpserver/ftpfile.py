@@ -19,4 +19,5 @@ for file in list_of_files:
   ftp_server.delete(file)
   os.remove(file)
 
+ftp_server.quit()
 
