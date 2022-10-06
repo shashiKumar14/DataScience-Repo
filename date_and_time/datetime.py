@@ -2,7 +2,8 @@ import datetime
 import time
 
 #Today date below format
-Todaydate = datetime.datetime.now().strftime("%Y-%m-%d-%I:%M:%S_%p") #2022-09-22 17:05:20
+Todaydate = datetime.datetime.now().strftime("%Y-%m-%d-%I:%M:%S_%p")
+Todaydate = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') #2022-09-22 17:05:20
 
 #How much time taken to process
 start=time.time()#starting of code
