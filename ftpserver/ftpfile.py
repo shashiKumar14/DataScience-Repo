@@ -19,5 +19,11 @@ for file in list_of_files:
   ftp_server.delete(file)
   os.remove(file)
 
+  
+#To store in another folder
+ftp_server.cwd("/path/to/another_folder")
+with open(filename, "rb") as File_Name:
+  ftp_server.storbinary(f"STOR {filename}", File_Name)
+  
 ftp_server.quit()
 
