@@ -11,5 +11,6 @@ DATA = pickle.load(open('filename.pickle', 'rb'))
  
                    or
  
+import pickle
 with open('filename.pkl','rb') as fi:
    any_var_name = pickle.load(fi)
