@@ -1,0 +1,6 @@
+To connect postgresql from command:
+====================================
+
+i)sudo -i -u postgres
+
+ii)psql
