@@ -1,4 +1,4 @@
-To connect postgresql from command:
+To connect postgresql from command in ubuntu:
 ====================================
 
 i)sudo -i -u postgres
