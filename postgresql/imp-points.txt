@@ -4,3 +4,97 @@ To connect postgresql from command in ubuntu:
 i)sudo -i -u postgres
 
 ii)psql
+
+To get list of databases and additional info:
+========================
+\l
+
+To get list of databases:
+====================================
+SELECT datname FROM pg_database;
+
+To create database:
+====================================
+CREATE DATABASE testdb;
+
+To switch perticular db:
+====================================
+\c testdb;
+
+To create a table:
+====================================
+CREATE TABLE COMPANY(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL
+);
+
+INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) VALUES (1, 'Paul', 32, 'California', 20000.00);
+
+SELECT * FROM company
+
+select name,age from company
+
+SELECT * FROM COMPANY WHERE SALARY = 20000;
+
+
+To Know how many records are there in the table:
+================================================
+SELECT COUNT(*) AS "RECORDS" FROM COMPANY;
+
+SELECT CURRENT_TIMESTAMP;
+
+SELECT column1, column2, columnN
+FROM table_name
+WHERE [search_condition]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
