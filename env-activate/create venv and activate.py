@@ -13,3 +13,10 @@ for wondows:
 for ubuntu:
 ===========
   source create_any_filename/bin/activate  
+
+ 
+ 
+ BEFORE INSTALLING 
+  
+  1)sudo apt install python3.8-venv
+ 
