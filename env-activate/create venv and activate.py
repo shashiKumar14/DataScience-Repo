@@ -20,3 +20,9 @@ for ubuntu:
   
   1)sudo apt install python3.8-venv
  
+==============================================================================
+===>To check the list of version of pip dependencies
+pip list --format freeze
+
+ref:
+ https://note.nkmk.me/en/python-pip-list-freeze/
