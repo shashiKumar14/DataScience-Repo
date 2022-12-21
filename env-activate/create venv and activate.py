@@ -8,11 +8,11 @@ activate after creating
 
 for wondows:
 ============
-  create_any_filename\Scripts\activate.bat  
+  create_any_filename\Scripts\activate.bat  ===> .venv\Scripts\activate.bat
   
 for ubuntu:
 ===========
-  source create_any_filename/bin/activate  
+  source create_any_filename/bin/activate  ===>  .venv/bin/activate
 
  
  
